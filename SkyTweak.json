@@ -1,0 +1,995 @@
+{
+  "name": "SkyTweak",
+  "subtitle": "iOS apps & Tweaks Founded by the SkyTweak Team",
+  "description": "Apps, tweaks, emulators, and utilities.",
+  "iconURL": "https://i.imgur.com/2xKfYn5.png",
+  "website": "https://skytweak.dpdns.org/SkyTweak.json",
+  "patreonURL": "https://www.patreon.com/profile/SkyTweak",
+  "tintColor": "#4F46E5",
+  "featuredApps": [
+    "com.kdt.livecontainer",
+    "com.rileytestut.Delta",
+    "com.google.ios.youtubemusic",
+    "com.spotify.client",
+    "com.utmapp.UTM"
+  ],
+  "headerURL": "https://i.imgur.com/LkVkoB9.png",
+  "apps": [
+    {
+      "name": "CarTube",
+      "bundleIdentifier": "com.avangelista.CarTube",
+      "marketplaceID": "",
+      "developerName": "CarTube Team",
+      "subtitle": "CarPlay YouTube",
+      "localizedDescription": "Watch YouTube in CarPlay.",
+      "iconURL": "https://cartube.tube/wp-content/uploads/2024/12/cropped-cropped-CarTube.png",
+      "tintColor": "#4F46E5",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.3",
+          "date": "2026-06-20T01:06:00-04:00",
+          "localizedDescription": "CarPlay build.",
+          "downloadURL": "https://files.catbox.moe/cw8dsr.ipa",
+          "size": 600000,
+          "buildVersion": "013",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Needed for voice search."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "SpeedTest++",
+      "bundleIdentifier": "com.ookla.speedtest",
+      "marketplaceID": "",
+      "developerName": "SkyTweak Team",
+      "subtitle": "Speedtest with VPN",
+      "localizedDescription": "SpeedTest with premium VPN features.",
+      "iconURL": "https://i.imgur.com/SFl4BUz.png",
+      "tintColor": "#7f7f7f",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "5.4.0",
+          "date": "2026-06-19T21:05:00-04:00",
+          "localizedDescription": "Premium VPN build.",
+          "downloadURL": "https://ipa.cypwn.xyz/ipas/Speedtest_VPN_Premium_5.4.0.ipa",
+          "size": 55100000,
+          "buildVersion": "540",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Needed to take screenshots and photos.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Needed to pick the best test server.",
+          "NSLocationWhenInUseUsageDescription": "Needed to pick the best test server.",
+          "NSPhotoLibraryAddUsageDescription": "Save test results to Photos.",
+          "NSPhotoLibraryUsageDescription": "Save test results to Photos.",
+          "NSUserTrackingUsageDescription": "Used for personalized ads and analytics."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "YouTube Music",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "marketplaceID": "",
+      "developerName": "SkyTweak Team",
+      "subtitle": "Sideloaded build",
+      "localizedDescription": "YouTube Music for SideStore.",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png",
+      "tintColor": "#fc0434",
+      "category": "music",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "9.23.4",
+          "date": "2026-06-19T23:25:00-04:00",
+          "localizedDescription": "Maintenance update.",
+          "downloadURL": "https://files.catbox.moe/c8n65b.ipa",
+          "size": 97300000,
+          "buildVersion": "903",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+          "NSCameraUsageDescription": "To take a profile picture, allow YouTube Music to access your camera.",
+          "NSContactsUsageDescription": "This will allow you to invite your family into your membership plan.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube Music to discover and connect to devices such as your TV.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos.",
+          "NSPhotoLibraryAddUsageDescription": "To save images, allow YouTube Music to access your photo library.",
+          "NSPhotoLibraryUsageDescription": "To choose a profile picture, allow YouTube Music to access your photos."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "YouTube TV",
+      "bundleIdentifier": "com.google.ios.youtube.tv",
+      "marketplaceID": "",
+      "developerName": "SkyTweak Team",
+      "subtitle": "Sideloaded build",
+      "localizedDescription": "YouTube TV for SideStore.",
+      "iconURL": "https://i.imgur.com/45Il6Bi.png",
+      "tintColor": "#fc0404",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-06-19T23:23:00-04:00",
+          "localizedDescription": "Maintenance update.",
+          "downloadURL": "https://files.catbox.moe/ahmkka.ipa",
+          "size": 200000,
+          "buildVersion": "010",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Microphone Search"
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "AngelAuraMC",
+      "bundleIdentifier": "org.angelauramc.amethyst",
+      "marketplaceID": "",
+      "developerName": "AngelAuraMC Team",
+      "subtitle": "Minecraft Java on iOS",
+      "localizedDescription": "Java Edition launcher for iOS. JIT required.",
+      "iconURL": "https://i.imgur.com/0mSoWeM.png",
+      "tintColor": "#c5399c",
+      "category": "games",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.00678b0",
+          "date": "2026-04-12T19:18:00-04:00",
+          "localizedDescription": "Maintenance update.",
+          "downloadURL": "https://alt.crystall1ne.dev/resources/amethyst/00678b0/org.angelauramc.amethyst-1.0-ios.ipa",
+          "size": 150300000,
+          "buildVersion": "167",
+          "minOSVersion": null
+        },
+        {
+          "version": "1.0",
+          "date": "2011-02-11T20:13:00-05:00",
+          "localizedDescription": "Legacy build.",
+          "downloadURL": "https://ipa.cypwn.xyz/ipas/Amethyst_1.0.ipa",
+          "size": 30100000,
+          "buildVersion": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Angel Aura Amethyst uses the local network to find and communicate with AltServer and LAN servers.",
+          "NSMicrophoneUsageDescription": "Angel Aura Amethyst uses the microphone to enable support for voice chat mods."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "marketplaceID": "",
+      "developerName": "SkyTweak Team",
+      "subtitle": "Premium build",
+      "localizedDescription": "Facebook build with premium tweaks.",
+      "iconURL": "https://i.imgur.com/UM445Jj.png",
+      "tintColor": "#0c64fc",
+      "category": "social",
+      "screenshots": [
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-1.webp",
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-2.webp",
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-3.webp",
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-4.webp",
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-5.webp",
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-6.webp"
+      ],
+      "versions": [
+        {
+          "version": "563.0.0",
+          "date": "2026-06-20T03:11:00-04:00",
+          "localizedDescription": "Updated to v563.0.0",
+          "downloadURL": "https://files.catbox.moe/m34zo6.ipa",
+          "size": 188500000,
+          "buildVersion": "563",
+          "minOSVersion": null
+        },
+        {
+          "version": "502.2.0",
+          "date": "2025-04-03T18:27:00-04:00",
+          "localizedDescription": "Updated to v502.2.0",
+          "downloadURL": "https://release-assets.githubusercontent.com/github-production-release-asset/622253879/0c1b0695-2cfd-4632-8c1d-a51e9a282c24?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-06-18T15%3A01%3A19Z&rscd=attachment%3B+filename%3DFacebook.v502.2.0.%2B.Wolf.v2.1.ipa&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-06-18T14%3A01%3A18Z&ske=2026-06-18T15%3A01%3A19Z&sks=b&skv=2018-11-09&sig=%2F78aoqxttwJ4XvYX3r%2Bpksx3nWdOxLJ6pFDHL5FRJnU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MTc5NjQzNSwibmJmIjoxNzgxNzkyODM1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.--Nd5S9d9PwGpoIIw3_F1Pe1fl4O-71w0niSY518O4U&response-content-disposition=attachment%3B%20filename%3DFacebook.v502.2.0.%2B.Wolf.v2.1.ipa&response-content-type=application%2Foctet-stream",
+          "size": 164100000,
+          "buildVersion": "502",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAdvertisingAttributionReportEndpoint": "https://facebook.com",
+          "NSAppleMusicUsageDescription": "Play audio from your library.",
+          "NSBluetoothAlwaysUsageDescription": "Connect to Bluetooth accessories.",
+          "NSBluetoothPeripheralUsageDescription": "Connect to Bluetooth accessories.",
+          "NSCalendarsFullAccessUsageDescription": "Sync events to Calendar.",
+          "NSCalendarsUsageDescription": "Sync events to Calendar.",
+          "NSCameraUsageDescription": "Take photos and videos.",
+          "NSContactsUsageDescription": "Find friends from Contacts.",
+          "NSFaceIDUsageDescription": "Unlock with Face ID.",
+          "NSLocalNetworkUsageDescription": "Discover nearby devices.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Improve local content and ads.",
+          "NSLocationWhenInUseUsageDescription": "Improve local content and ads.",
+          "NSMicrophoneUsageDescription": "Record audio and voice.",
+          "NSMotionUsageDescription": "Improve the app experience.",
+          "NSPhotoLibraryAddUsageDescription": "Save photos and videos.",
+          "NSPhotoLibraryUsageDescription": "Save photos and videos.",
+          "NSPrincipalClass": "FBApplication",
+          "NSSiriUsageDescription": "Use Siri for photos.",
+          "NSSpeechRecognitionUsageDescription": "Detect voice confirmation.",
+          "NSUserTrackingUsageDescription": "Personalize ads and content."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "Messenger",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "marketplaceID": "",
+      "developerName": "SkyTweak Team",
+      "subtitle": "Tweaked build",
+      "localizedDescription": "Messenger build with premium tweaks.",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png",
+      "tintColor": "#0c64fc",
+      "category": "social",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b6/9b/fb/b69bfb93-41be-bdca-5b4c-c27519b474c2/391db841-c2fe-45c1-bc57-c1fbc16f3b35_iPhone_6.5__-_Screen_1.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9d/ad/c5/9dadc57c-5684-bfc6-b384-bd2a7152bde1/886304e6-ebc9-4468-b0af-5d4b33e434c2_iPhone_6.5__-_Screen_3.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/9e/8d/cb/9e8dcb43-ce79-c4ff-43ef-e3548847d87d/0014da8a-bb5a-4fe1-923d-90c1f05530e9_iPhone_6.5__-_Screen_4.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/85/1f/95/851f951f-6e93-cdac-d2a3-813316c5db57/f121cd69-ba21-47c4-bbd5-c8f5e690f206_iPhone_6.5__-_Screen_5.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/d2/08/e9/d208e9b4-786b-5846-3dd9-e922e3700096/56915158-747c-471d-bb40-fc369ed93d2d_iPhone_6.5__-_Screen_6.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/db/8f/9c/db8f9c34-d7d5-b1f3-2be4-e4fa3a6906f5/ee927225-0cfa-43a1-8b63-f97eabc3237c_iPhone_6.5__-_Screen_7.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e5/97/49/e59749f5-d582-4840-dbcc-0e72bdbf09ec/8ed80d4b-be7b-4048-a099-d1d0ff5555ab_iPhone_6.5__-_Screen_8.jpg/460x0w.webp"
+      ],
+      "versions": [
+        {
+          "version": "565.0.0",
+          "date": "2026-06-19T23:10:00-04:00",
+          "localizedDescription": "Updated to v565.0.0",
+          "downloadURL": "https://files.catbox.moe/1v213x.ipa",
+          "size": 87700000,
+          "buildVersion": "565",
+          "minOSVersion": null
+        },
+        {
+          "version": "390.0",
+          "date": "2023-10-22T18:25:00-04:00",
+          "localizedDescription": "Legacy working build.",
+          "downloadURL": "https://release-assets.githubusercontent.com/github-production-release-asset/622253879/be1501b2-c486-4386-b337-fd07710dd1b2?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-06-18T15%3A15%3A09Z&rscd=attachment%3B+filename%3DMessenger.v390.0.%2B.Shark.v2.2.1.ipa&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-06-18T14%3A14%3A13Z&ske=2026-06-18T15%3A15%3A09Z&sks=b&skv=2018-11-09&sig=JbClovTgnAFORTxLH5QbMhKXJkM1rb%2B%2F%2F8x0EPog9BM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MTc5NDUwOSwibmJmIjoxNzgxNzkyNzA5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.GpZgZfWcDK3DFS5Kmx1VlnPnPICL-Rtz0DCE7zA4Rbs&response-content-disposition=attachment%3B%20filename%3DMessenger.v390.0.%2B.Shark.v2.2.1.ipa&response-content-type=application%2Foctet-stream",
+          "size": 44600000,
+          "buildVersion": "390",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Play music from your library.",
+          "NSBluetoothAlwaysUsageDescription": "Connect accessories.",
+          "NSBluetoothPeripheralUsageDescription": "Connect accessories.",
+          "NSCalendarsUsageDescription": "Sync events to Calendar.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "Sync events to Calendar.",
+          "NSCameraUsageDescription": "Take photos, videos, and calls.",
+          "NSContactsUsageDescription": "Find contacts and friends.",
+          "NSFaceIDUsageDescription": "Unlock with Face ID.",
+          "NSHumanReadableCopyright": "Copyright 2004-present Facebook. All Rights Reserved.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Share live location and nearby places.",
+          "NSLocationAlwaysUsageDescription": "Share live location and nearby places.",
+          "NSLocationUsageDescription": "Share live location and nearby places.",
+          "NSLocationWhenInUseUsageDescription": "Share live location and nearby places.",
+          "NSMicrophoneUsageDescription": "Record voice and video messages.",
+          "NSPhotoLibraryAddUsageDescription": "Save media to Photos.",
+          "NSPhotoLibraryUsageDescription": "Share media from Photos.",
+          "NSSiriUsageDescription": "Use Siri for messages.",
+          "NSSpeechRecognitionUsageDescription": "Detect voice confirmation."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "EeveeSpotify",
+      "bundleIdentifier": "com.spotify.client",
+      "marketplaceID": "",
+      "developerName": "SkyTweak Team",
+      "subtitle": "Spotify premium-style tweaks",
+      "localizedDescription": "Spotify with premium-style features.",
+      "iconURL": "https://i.imgur.com/1nxDlWY.png",
+      "tintColor": "#04e154",
+      "category": "music",
+      "screenshots": {
+        "iphone": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/58/0d/28580d62-47f7-d6ce-aa73-69e3dbe21642/IOS_-_6.5_-_S01_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/fb/21/13fb2184-8c5c-190c-86af-582bb5430446/IOS_-_6.5_-_S02_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/5d/d5/635dd568-ba3b-a0a1-2916-52497dec2ad6/IOS_-_6.5_-_S02_-__U005bEnglish__U0028US_U0029_U005d.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/07/b2/5b07b2d7-b990-cf1c-1154-350d877c00a0/IOS_-_6.5_-_S03_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/3e/94/a23e94b6-1401-de71-817e-5a33b4d821a9/IOS_-_6.5_-_S04_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/9a/47/fd9a47d4-029b-eb3b-2a39-a6de9b515aae/IOS_-_6.5_-_S05_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/01/1a/ed011a26-bdbe-0c99-160b-2a79eadb857d/IOS_-_6.5_-_S06_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/ad/72/e8ad72c3-9abc-f028-485f-22d787ab03e4/IOS_-_6.5_-_S07_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/d1/a4/0dd1a46a-3e03-e522-7ec4-a8e6c3cc84da/IOS_-_6.5_-_S08_-_EN_-_US.png/230x498bb.webp"
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/77/26/f57726a8-9d53-3a59-a5ab-a267c7ff6356/IOS_-_Ipad_13__-_S01_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/34/5e/4a345e06-7088-d4f6-b30e-b8a61f43cb9e/IOS_-_Ipad_13__-_S02_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/75/3d/4c753da9-30d5-ceec-4bbe-26b3f1e6eb09/IOS_-_Ipad_13__-_S02_-__U005bEnglish__U0028US_U0029_U005d.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/40/f1/3340f1f3-f2b0-b53a-490a-d8ada00f07a5/IOS_-_Ipad_13__-_S03_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/9e/cc/4c9ecc99-7dda-90de-d859-c6b70604c399/IOS_-_Ipad_13__-_S04_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/f2/cf/6ff2cffe-9324-d323-6242-553b524556f6/IOS_-_Ipad_13__-_S05_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/c0/c7/a4c0c752-950d-70e6-ddbb-66a577947d66/IOS_-_Ipad_13__-_S06_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "9.1.56",
+          "date": "2026-06-19T23:08:00-04:00",
+          "localizedDescription": "Maintenance update.",
+          "downloadURL": "https://files.catbox.moe/k1h32q.ipa",
+          "size": 118400000,
+          "buildVersion": "916",
+          "minOSVersion": null
+        },
+        {
+          "version": "9.1.50",
+          "date": "2026-06-19T19:07:00-04:00",
+          "localizedDescription": "Maintenance update.",
+          "downloadURL": "https://appstore.sidelix.vip/download-repo-source/1821",
+          "size": 115200000,
+          "buildVersion": "910",
+          "minOSVersion": null
+        },
+        {
+          "version": "9.0.20",
+          "date": "2025-05-03T18:21:00-04:00",
+          "localizedDescription": "Updated Spotify and Eevee.",
+          "downloadURL": "https://release-assets.githubusercontent.com/github-production-release-asset/622253879/58f1a006-65af-4f83-bb06-747a12153209?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-06-18T15%3A04%3A52Z&rscd=attachment%3B+filename%3DSpotify.v9.0.20.%2B.Eevee.v5.8.7.ipa&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-06-18T14%3A04%3A18Z&ske=2026-06-18T15%3A04%3A52Z&sks=b&skv=2018-11-09&sig=XQ0JgAje26I1enCbvvvbpyLi8YdQKbjhnzZ2BPBMRes%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MTc5NDI0MywibmJmIjoxNzgxNzkyNDQzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.AM1aoQdHRa4JQMUHXQDBoE5FUxJy84HaLry2wBD5Pa8&response-content-disposition=attachment%3B%20filename%3DSpotify.v9.0.20.%2B.Eevee.v5.8.7.ipa&response-content-type=application%2Foctet-stream",
+          "size": 83300000,
+          "buildVersion": "900",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Play imported music.",
+          "NSBluetoothAlwaysUsageDescription": "Use Bluetooth accessories.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSCameraUsageDescription": "Scan or upload images.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSFaceIDUsageDescription": "Unlock with Face ID.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSLocalNetworkUsageDescription": "Access local audio and devices.",
+          "NSLocationWhenInUseUsageDescription": "Improve recommendations.",
+          "NSMicrophoneUsageDescription": "Use voice control.",
+          "NSMotionUsageDescription": "Improve recommendations.",
+          "NSPhotoLibraryAddUsageDescription": "Save images to Photos.",
+          "NSPhotoLibraryUsageDescription": "Select images from Photos.",
+          "NSUserTrackingUsageDescription": "Deliver personalized ads and content.",
+          "NSBluetoothPeripheralUsageDescription": "Use Bluetooth accessories."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "OldOS",
+      "bundleIdentifier": "com.zrc.BudgetingBuddy",
+      "marketplaceID": "",
+      "developerName": "zzanehip",
+      "subtitle": "iOS 4 nostalgia",
+      "localizedDescription": "A SwiftUI recreation of classic iOS.",
+      "iconURL": "https://i.imgur.com/FzGANM6.png",
+      "tintColor": "#7f7f7f",
+      "category": "utilities",
+      "screenshots": [
+        "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_1.jpg",
+        "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_2.jpg",
+        "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_3.jpg",
+        "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_4.jpg",
+        "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_5.jpg"
+      ],
+      "versions": [
+        {
+          "version": "2.0.7",
+          "date": "2025-12-20T01:02:00-05:00",
+          "localizedDescription": "CyPwn build.",
+          "downloadURL": "https://ipa.cypwn.xyz/ipas/OldOS.ipa",
+          "size": 83300000,
+          "buildVersion": "207",
+          "minOSVersion": null
+        },
+        {
+          "version": "1.0",
+          "date": "2025-12-07T15:13:00-05:00",
+          "localizedDescription": "Quantum Source build.",
+          "downloadURL": "https://release-assets.githubusercontent.com/github-production-release-asset/375227836/a6d304ce-a944-410f-b086-cde56e888a53?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-06-18T15%3A05%3A09Z&rscd=attachment%3B+filename%3DOldOS.ipa&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-06-18T14%3A04%3A39Z&ske=2026-06-18T15%3A05%3A09Z&sks=b&skv=2018-11-09&sig=ADYlxnfFFSErxVG1MuO4MtiFMJFsCzHpTZVfEc5ni4E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MTc5Mzc5OSwibmJmIjoxNzgxNzkxOTk5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.I_N1xOBF2yz-LSI7LaniOofE5b6VVsv-nCgIHlUmEKE&response-content-disposition=attachment%3B%20filename%3DOldOS.ipa&response-content-type=application%2Foctet-stream",
+          "size": 83200000,
+          "buildVersion": "010",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Access your music library.",
+          "NSCameraUsageDescription": "Take photos and videos.",
+          "NSContactsUsageDescription": "Access your contacts.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Enable Maps and Wi‑Fi details.",
+          "NSLocationAlwaysUsageDescription": "Enable Maps and Wi‑Fi details.",
+          "NSLocationWhenInUseUsageDescription": "Enable Maps and Wi‑Fi details.",
+          "NSMicrophoneUsageDescription": "Record audio in OldOS.",
+          "NSPhotoLibraryAddUsageDescription": "Access and save photos.",
+          "NSPhotoLibraryUsageDescription": "Access and save photos."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "SoundCloud",
+      "bundleIdentifier": "com.soundcloud.TouchApp",
+      "marketplaceID": "",
+      "developerName": "SkyTweak Team",
+      "subtitle": "Premium tweaks",
+      "localizedDescription": "SoundCloud with ad blocking and dev tools.",
+      "iconURL": "https://www.bing.com/th/id/OIP.qymOp8VSH5y2oQN_ZDgPSwHaHa?w=160&h=145&c=8&rs=1&qlt=90&r=0&pid=3.1&rm=2",
+      "tintColor": "#4d4d4d",
+      "category": "music",
+      "screenshots": [
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-1.jpg",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-2.jpg",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-3.jpg",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-4.jpg",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-5.jpg",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-6.jpg",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-7.jpg",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-8.jpg"
+      ],
+      "versions": [
+        {
+          "version": "8.64.0",
+          "date": "2026-06-19T23:05:00-04:00",
+          "localizedDescription": "Maintenance update.",
+          "downloadURL": "https://files.catbox.moe/w98lx8.ipa",
+          "size": 109700000,
+          "buildVersion": "864",
+          "minOSVersion": null
+        },
+        {
+          "version": "6.20.0",
+          "date": "2026-06-18T05:25:00-04:00",
+          "localizedDescription": "Updated SoundCloud and DarkCloud.",
+          "downloadURL": "https://release-assets.githubusercontent.com/github-production-release-asset/600499139/3beb44d9-dbb8-47e3-9eb8-a9fbf562ec2e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-06-17T22%3A16%3A18Z&rscd=attachment%3B+filename%3DSoundCloud.v6.20.0.%2B.DarkCloud.v1.4.ipa&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-06-17T21%3A16%3A11Z&ske=2026-06-17T22%3A16%3A18Z&sks=b&skv=2018-11-09&sig=cu7oFfEvwhpd3o6ZY7jM7w5AtofotoezVpUQ74UIfwo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MTczMzI4NSwibmJmIjoxNzgxNzMxNDg1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.rJE5S4x9ezAq-2kEg0UIbY6_Es8fSQDAu6A6xaZeJR4&response-content-disposition=attachment%3B%20filename%3DSoundCloud.v6.20.0.%2B.DarkCloud.v1.4.ipa&response-content-type=application%2Foctet-stream",
+          "size": 61400000,
+          "buildVersion": "620",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAdvertisingAttributionReportEndpoint": "https://appsflyer-skadnetwork.com/",
+          "NSBluetoothPeripheralUsageDescription": "Use Bluetooth accessories.",
+          "NSCameraUsageDescription": "Take or upload photos.",
+          "NSLocalNetworkUsageDescription": "Find cast devices on Wi‑Fi.",
+          "NSMicrophoneUsageDescription": "Use voice features.",
+          "NSPhotoLibraryAddUsageDescription": "Save photos to Photos.",
+          "NSPhotoLibraryUsageDescription": "Store photos from Photos.",
+          "NSSiriUsageDescription": "Use Siri.",
+          "NSUserTrackingUsageDescription": "Serve more relevant ads."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "StikDebug",
+      "bundleIdentifier": "com.stik.stikdebug",
+      "marketplaceID": "",
+      "developerName": "StephenDev0",
+      "subtitle": "Debugger and JIT helper",
+      "localizedDescription": "On-device debugger, launcher, and JIT helper.",
+      "iconURL": "https://i.imgur.com/G3w0dtY.png",
+      "tintColor": "#24ccfc",
+      "category": "developer",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "3.1.6",
+          "date": "2026-06-17T08:00:00-04:00",
+          "localizedDescription": "TXM fixes for A13/A14/M1 on iOS 27.",
+          "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
+          "size": 11000000,
+          "buildVersion": "316",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Connect to devices on your network.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Keep JIT connections alive.",
+          "NSLocationWhenInUseUsageDescription": "Keep JIT connections alive."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "UTM SE",
+      "bundleIdentifier": "com.utmapp.UTM-SE",
+      "marketplaceID": "",
+      "developerName": "utmapp",
+      "subtitle": "Lightweight VM app",
+      "localizedDescription": "Run virtual machines without JIT.",
+      "iconURL": "https://i.imgur.com/GIM9ABl.png",
+      "tintColor": "#3c7cec",
+      "category": "developer",
+      "screenshots": [
+        {
+          "imageURL": "https://github.com/utmapp/UTM/raw/main/screen.png",
+          "width": 800,
+          "height": 405
+        }
+      ],
+      "versions": [
+        {
+          "version": "5.0.3",
+          "date": "2026-06-18T01:04:00-04:00",
+          "localizedDescription": "Graphics and scripting fixes.",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.3/UTM-SE.ipa",
+          "size": 218200000,
+          "buildVersion": "503",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSLocalNetworkUsageDescription": "Connect to local servers and devices.",
+          "NSMicrophoneUsageDescription": "Record audio in VMs."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "marketplaceID": "",
+      "developerName": "utmapp",
+      "subtitle": "Full VM host",
+      "localizedDescription": "Virtual machines for iOS and macOS.",
+      "iconURL": "https://i.imgur.com/k5Tm6E0.png",
+      "tintColor": "#3c7cec",
+      "category": "developer",
+      "screenshots": [
+        {
+          "imageURL": "https://github.com/utmapp/UTM/raw/main/screen.png",
+          "width": 800,
+          "height": 405
+        }
+      ],
+      "versions": [
+        {
+          "version": "5.0.3",
+          "date": "2026-06-18T01:03:00-04:00",
+          "localizedDescription": "Graphics and scripting fixes.",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.3/UTM.ipa",
+          "size": 133900000,
+          "buildVersion": "503",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSLocalNetworkUsageDescription": "Connect to local servers and devices.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Keep background VM services active.",
+          "NSLocationAlwaysUsageDescription": "Keep background VM services active.",
+          "NSLocationWhenInUseUsageDescription": "Keep background VM services active.",
+          "NSMicrophoneUsageDescription": "Record audio in VMs."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "Delta",
+      "bundleIdentifier": "com.rileytestut.Delta",
+      "marketplaceID": "",
+      "developerName": "Riley Testut",
+      "subtitle": "Classic games",
+      "localizedDescription": "Game emulator for iPhone and iPad.",
+      "iconURL": "https://i.imgur.com/Q2ONtnL.png",
+      "tintColor": "#8224ee",
+      "category": "games",
+      "screenshots": [
+        {
+          "imageURL": "https://user-images.githubusercontent.com/705880/115471008-203aa480-a1ec-11eb-8aba-237a46799543.png",
+          "width": 3822,
+          "height": 2904
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.7.1",
+          "date": "2025-04-09T06:00:00-04:00",
+          "localizedDescription": "N64 compatibility and fixes.",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_7_1.ipa",
+          "size": 196000000,
+          "buildVersion": "171",
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Connect to SideStore and enable JIT.",
+          "NSMicrophoneUsageDescription": "Emulate the DS microphone.",
+          "NSPhotoLibraryAddUsageDescription": "Save screenshots to Photos.",
+          "NSPhotoLibraryUsageDescription": "Use Photos for game artwork."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "LiveContainer",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "marketplaceID": "",
+      "developerName": "LiveContainer Team",
+      "subtitle": "Run apps in containers",
+      "localizedDescription": "Run apps without installing them.\n\n⚠️ REQUIRED: Turn OFF Spoof SDK in SideStore before launching.",
+      "iconURL": "https://i.imgur.com/SUxWDM7.png",
+      "tintColor": "#0584fc",
+      "category": "utilities",
+      "screenshots": [
+        "https://github.com/LiveContainer/LiveContainer/raw/main/screenshots/livecontainer_icon.png"
+      ],
+      "versions": [
+        {
+          "version": "3.7.9",
+          "date": "2026-06-10T00:50:00-04:00",
+          "localizedDescription": "Core fixes for iOS 27.",
+          "downloadURL": "https://files.catbox.moe/vioop7.ipa",
+          "size": 4600000,
+          "buildVersion": "379",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSAppleMusicUsageDescription": "Needed by containerized apps.",
+          "NSBluetoothAlwaysUsageDescription": "Needed by containerized apps.",
+          "NSBluetoothPeripheralUsageDescription": "Needed by containerized apps.",
+          "NSCalendarsFullAccessUsageDescription": "Needed by containerized apps.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "Needed by containerized apps.",
+          "NSCameraUsageDescription": "Needed by containerized apps.",
+          "NSContactsUsageDescription": "Needed by containerized apps.",
+          "NSFaceIDUsageDescription": "Needed by containerized apps.",
+          "NSFallDetectionUsageDescription": "Needed by containerized apps.",
+          "NSGKFriendListUsageDescription": "Needed by containerized apps.",
+          "NSHealthClinicalHealthRecordsShareUsageDescription": "Needed by containerized apps.",
+          "NSHealthShareUsageDescription": "Needed by containerized apps.",
+          "NSHealthUpdateUsageDescription": "Needed by containerized apps.",
+          "NSHomeKitUsageDescription": "Needed by containerized apps.",
+          "NSIdentityUsageDescription": "Needed by containerized apps.",
+          "NSLocalNetworkUsageDescription": "Needed by containerized apps.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Needed by containerized apps.",
+          "NSLocationTemporaryUsageDescriptionDictionary": "Needed by containerized apps.",
+          "NSLocationUsageDescription": "Needed by containerized apps.",
+          "NSLocationWhenInUseUsageDescription": "Needed by containerized apps.",
+          "NSMicrophoneUsageDescription": "Needed by containerized apps.",
+          "NSMotionUsageDescription": "Needed by containerized apps.",
+          "NSNearbyInteractionAllowOnceUsageDescription": "Needed by containerized apps.",
+          "NSNearbyInteractionUsageDescription": "Needed by containerized apps.",
+          "NSPhotoLibraryAddUsageDescription": "Needed by containerized apps.",
+          "NSPhotoLibraryUsageDescription": "Needed by containerized apps.",
+          "NSRemindersFullAccessUsageDescription": "Needed by containerized apps.",
+          "NSSensorKitUsageDescription": "Needed by containerized apps.",
+          "NSSiriUsageDescription": "Needed by containerized apps.",
+          "NSSpeechRecognitionUsageDescription": "Needed by containerized apps.",
+          "NSUserTrackingUsageDescription": "Needed by containerized apps."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "LiveContainer (SideStore)",
+      "bundleIdentifier": "com.side.livecontainer",
+      "marketplaceID": "",
+      "developerName": "LiveContainer Team",
+      "subtitle": "SideStore build",
+      "localizedDescription": "Run apps without installing them.\n\n⚠️ REQUIRED: Turn OFF Spoof SDK in SideStore before launching.",
+      "iconURL": "https://i.imgur.com/Q2FNG9s.png",
+      "tintColor": "#0584fc",
+      "category": "utilities",
+      "screenshots": [
+        "https://github.com/LiveContainer/LiveContainer/raw/main/screenshots/livecontainer_icon.png",
+        "https://sidestore.io/hero_render2.12414c8d.webp",
+        "https://avatars.githubusercontent.com/u/105070799?s=200&v=4"
+      ],
+      "versions": [
+        {
+          "version": "3.7.9",
+          "date": "2026-06-18T04:39:00-04:00",
+          "localizedDescription": "Core fixes for iOS 27.",
+          "downloadURL": "https://files.catbox.moe/8cjbtu.ipa",
+          "size": 34600000,
+          "buildVersion": "379",
+          "minOSVersion": "26.5.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSAppleMusicUsageDescription": "Needed by containerized apps.",
+          "NSBluetoothAlwaysUsageDescription": "Needed by containerized apps.",
+          "NSBluetoothPeripheralUsageDescription": "Needed by containerized apps.",
+          "NSCalendarsFullAccessUsageDescription": "Needed by containerized apps.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "Needed by containerized apps.",
+          "NSCameraUsageDescription": "Needed by containerized apps.",
+          "NSContactsUsageDescription": "Needed by containerized apps.",
+          "NSFaceIDUsageDescription": "Needed by containerized apps.",
+          "NSFallDetectionUsageDescription": "Needed by containerized apps.",
+          "NSGKFriendListUsageDescription": "Needed by containerized apps.",
+          "NSHealthClinicalHealthRecordsShareUsageDescription": "Needed by containerized apps.",
+          "NSHealthShareUsageDescription": "Needed by containerized apps.",
+          "NSHealthUpdateUsageDescription": "Needed by containerized apps.",
+          "NSHomeKitUsageDescription": "Needed by containerized apps.",
+          "NSIdentityUsageDescription": "Needed by containerized apps.",
+          "NSLocalNetworkUsageDescription": "Needed by containerized apps.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Needed by containerized apps.",
+          "NSLocationTemporaryUsageDescriptionDictionary": "Needed by containerized apps.",
+          "NSLocationUsageDescription": "Needed by containerized apps.",
+          "NSLocationWhenInUseUsageDescription": "Needed by containerized apps.",
+          "NSMicrophoneUsageDescription": "Needed by containerized apps.",
+          "NSMotionUsageDescription": "Needed by containerized apps.",
+          "NSNearbyInteractionAllowOnceUsageDescription": "Needed by containerized apps.",
+          "NSNearbyInteractionUsageDescription": "Needed by containerized apps.",
+          "NSPhotoLibraryAddUsageDescription": "Needed by containerized apps.",
+          "NSPhotoLibraryUsageDescription": "Needed by containerized apps.",
+          "NSRemindersFullAccessUsageDescription": "Needed by containerized apps.",
+          "NSSensorKitUsageDescription": "Needed by containerized apps.",
+          "NSSiriUsageDescription": "Needed by containerized apps.",
+          "NSSpeechRecognitionUsageDescription": "Needed by containerized apps.",
+          "NSUserTrackingUsageDescription": "Needed by containerized apps."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "YTLitePlus",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "marketplaceID": "",
+      "developerName": "YTLitePlus Team",
+      "subtitle": "YouTube with extras",
+      "localizedDescription": "YouTube with extra tweaks and features.",
+      "iconURL": "https://i.imgur.com/H9SdwlK.png",
+      "tintColor": "#fc0434",
+      "category": "entertainment",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/3.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/4.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/5.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/6.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/7.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
+      ],
+      "versions": [
+        {
+          "version": "21.24.3",
+          "date": "2026-06-19T21:09:00-04:00",
+          "localizedDescription": "Maintenance update.",
+          "downloadURL": "https://fastsign.dev/tg-ipa/scholars-lounge/62443-YTKillerPlus_21.24.3_5.6.1.ipa",
+          "size": 132400000,
+          "buildVersion": "214",
+          "minOSVersion": null
+        },
+        {
+          "version": "20.42.3",
+          "date": "2025-10-22T04:36:00-04:00",
+          "localizedDescription": "Improved streaming and stability.",
+          "downloadURL": "https://files.catbox.moe/cs4kph.ipa",
+          "size": 125500000,
+          "buildVersion": "202",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Create videos in the app.",
+          "NSUserTrackingUsageDescription": "Personalize ads and measurement.",
+          "NSBluetoothPeripheralUsageDescription": "Find Cast devices nearby.",
+          "NSLocalNetworkUsageDescription": "Find and connect to TV devices.",
+          "NSAppleMusicUsageDescription": "Add your own audio to videos.",
+          "NSMicrophoneUsageDescription": "Record audio and use voice search.",
+          "NSLocationWhenInUseUsageDescription": "Improve recommendations.",
+          "NSContactsUsageDescription": "Find friends to share with.",
+          "NSPhotoLibraryUsageDescription": "Upload media from Photos."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "SkyNVR",
+      "bundleIdentifier": "com.sky0cloud.skynvr",
+      "marketplaceID": "",
+      "developerName": "Sky0Cloud",
+      "subtitle": "Locked source",
+      "localizedDescription": "Limited-access build.",
+      "iconURL": "https://i.imgur.com/X1rzMGR.png",
+      "tintColor": "#7f7f7f",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.2",
+          "date": "2026-05-30T17:54:00-04:00",
+          "localizedDescription": "Locked source.",
+          "downloadURL": "https://files.catbox.moe/phrl7z.ipa",
+          "size": 600000,
+          "buildVersion": "012",
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    },
+    {
+      "name": "Old EeveeSpotify",
+      "bundleIdentifier": "com.spotify.yodaluca23",
+      "marketplaceID": "",
+      "developerName": "spotc.yodaluca.dev",
+      "subtitle": "Legacy Spotify tweak",
+      "localizedDescription": "Legacy Spotify build with extra tweaks.",
+      "iconURL": "https://i.imgur.com/vQZ0IY3.png",
+      "tintColor": "#1cd464",
+      "category": "music",
+      "screenshots": {
+        "iphone": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/58/0d/28580d62-47f7-d6ce-aa73-69e3dbe21642/IOS_-_6.5_-_S01_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/fb/21/13fb2184-8c5c-190c-86af-582bb5430446/IOS_-_6.5_-_S02_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/5d/d5/635dd568-ba3b-a0a1-2916-52497dec2ad6/IOS_-_6.5_-_S02_-__U005bEnglish__U0028US_U0029_U005d.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/07/b2/5b07b2d7-b990-cf1c-1154-350d877c00a0/IOS_-_6.5_-_S03_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/3e/94/a23e94b6-1401-de71-817e-5a33b4d821a9/IOS_-_6.5_-_S04_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/9a/47/fd9a47d4-029b-eb3b-2a39-a6de9b515aae/IOS_-_6.5_-_S05_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/01/1a/ed011a26-bdbe-0c99-160b-2a79eadb857d/IOS_-_6.5_-_S06_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/ad/72/e8ad72c3-9abc-f028-485f-22d787ab03e4/IOS_-_6.5_-_S07_-_EN_-_US.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/d1/a4/0dd1a46a-3e03-e522-7ec4-a8e6c3cc84da/IOS_-_6.5_-_S08_-_EN_-_US.png/230x498bb.webp"
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/77/26/f57726a8-9d53-3a59-a5ab-a267c7ff6356/IOS_-_Ipad_13__-_S01_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/34/5e/4a345e06-7088-d4f6-b30e-b8a61f43cb9e/IOS_-_Ipad_13__-_S02_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/75/3d/4c753da9-30d5-ceec-4bbe-26b3f1e6eb09/IOS_-_Ipad_13__-_S02_-__U005bEnglish__U0028US_U0029_U005d.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/40/f1/3340f1f3-f2b0-b53a-490a-d8ada00f07a5/IOS_-_Ipad_13__-_S03_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/9e/cc/4c9ecc99-7dda-90de-d859-c6b70604c399/IOS_-_Ipad_13__-_S04_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/f2/cf/6ff2cffe-9324-d323-6242-553b524556f6/IOS_-_Ipad_13__-_S05_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/c0/c7/a4c0c752-950d-70e6-ddbb-66a577947d66/IOS_-_Ipad_13__-_S06_-_EN_-_US.png/313x235bb.webp",
+            "width": 313,
+            "height": 235
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.2.3",
+          "date": "2026-06-18T22:01:00-04:00",
+          "localizedDescription": "Fixed the update loop.",
+          "downloadURL": "https://archive.org/download/SpotilifeCreleases/SpotilifeC/v1.2.3/SpotilifeC.v1.2.3_v8.6.42.ipa",
+          "size": 49100000,
+          "buildVersion": "123",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Play imported music.",
+          "NSBluetoothAlwaysUsageDescription": "Use Bluetooth accessories.",
+          "NSBluetoothPeripheralUsageDescription": "Use Bluetooth accessories.",
+          "NSCameraUsageDescription": "Scan Spotify Codes.",
+          "NSFaceIDUsageDescription": "Unlock with Face ID.",
+          "NSLocalNetworkUsageDescription": "Access local audio and devices.",
+          "NSLocationWhenInUseUsageDescription": "Pre-fill the current network.",
+          "NSMicrophoneUsageDescription": "Use voice control.",
+          "NSPhotoLibraryAddUsageDescription": "Save images to Photos.",
+          "NSPhotoLibraryUsageDescription": "Select images from Photos.",
+          "NSUserTrackingUsageDescription": "Deliver personalized ads and content."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
